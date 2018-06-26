@@ -7,6 +7,7 @@ import { Heroes } from '../../shared/heroes.model';
   templateUrl: './shopping-edit.component.html',
   styleUrls: ['./shopping-edit.component.css']
 })
+
 export class ShoppingEditComponent implements OnInit {
   ingredientsArray:Ingredient[] = [
     {name:'Apple', amount:5}
